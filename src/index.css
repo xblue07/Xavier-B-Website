@@ -1,5 +1,5 @@
-@import url('https://googleapis.com');
 @import "tailwindcss";
+@import url('https://googleapis.com');
 
 .afacad-font {
   font-family: "Afacad", sans-serif;
