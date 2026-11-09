@@ -1,9 +1,8 @@
 @import "tailwindcss";
-@import url('https://googleapis.com');
 
 .afacad-font {
   font-family: "Afacad", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 50pt;
+  font-weight: 400;
   font-style: normal;
 }
