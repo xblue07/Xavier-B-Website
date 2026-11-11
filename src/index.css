@@ -1,10 +1,67 @@
 @import "tailwindcss";
 
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background: #000000;
+  padding:10%;
+}
+
+.imgs {
+  width:40%;
+  height:auto;
+  max-width: 400px;
+  border-radius:10px;
+}
+
 .afacad-font {
   font-family: "Afacad", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color:white
+}
+
+.hero-imgs {
+  width:100%;
+  height:auto;
+  max-width:350px;
+  border-radius:10px;
+}
+.hero-section {
+  display: flex;
+  align-items: stretch;
+  gap: 30px;
+}
+
+.hero-left h1 {
+  font-size: 48px;
+  color: #90abff;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+h1 {
+  color: #90abff;
+}
+
+.hero-left p {
+  font-size: 18px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.hero-left {
+  flex:1;
+}
+
+.hero-right {
+  flex:1;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 ul {
