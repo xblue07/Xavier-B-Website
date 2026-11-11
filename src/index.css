@@ -67,3 +67,11 @@ h1 {
 ul {
   list-style:square;
 }
+
+button{
+  background: #90abff;
+  margin:5px;
+}
+a{
+  color: #000000;
+}
