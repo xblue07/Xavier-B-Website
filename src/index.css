@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+
+body{
+  background: #0b0e14;
+}
+
 .navbar {
   background-color:rgb(102, 131, 212);
   position:fixed;
@@ -11,16 +16,9 @@
   padding:10px;
   display:flex;
   list-style-type: none;
-  width:100%
+  width:100%;
+  margin-bottom: 20px;
 
-}
-
-body{
-  background: #0b0e14;
-  margin-top:50px;
-  margin-bottom:80px;
-  margin-left:0px;
-  margin-right:0px;
 }
 
 .imgs {
@@ -29,18 +27,26 @@ body{
   max-width: 400px;
   border-radius:20px;
   padding: 10px;
+  margin-left:60px;
+  margin-right:60px;
 }
+
 .hero-imgs {
   width:100%;
   height:auto;
-  max-width:350px;
-  border-radius:10px;
+  max-width:250px;
+  border-radius:100%;
   margin:15px;
 }
+
 .hero-section {
   display: flex;
   align-items: stretch;
-  gap: 30px;
+  gap: 0px;
+  padding-left:120px;
+  padding-right:120px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 h1 {
@@ -56,6 +62,8 @@ h2 {
   font-family: "Dela Gothic One", sans-serif;
   color:#90abff;
   margin:15px;
+  margin-left:115px;
+  margin-right:115px;
 
 }
 
@@ -67,14 +75,15 @@ p {
   font-family: "Afacad", sans-serif;
   font-size:18px;
   color:white;
-  margin-left:30px;
-  margin-right:30px;
+  margin-left:115px;
+  margin-right:115px;
 }
 
-.hero-left p {
+.hero-p {
   font-size: 20px;
   margin-bottom: 16px;
   margin-top: 16px;
+  margin-left:0px;
 }
 
 .hero-left {
@@ -93,14 +102,24 @@ ul {
    font-family: "Afacad", sans-serif;
   font-size:18px;
   color:white;
-  margin-left:30px;
-  margin-right:30px;
+  margin-left:115px;
+  margin-right:115px;
 }
 
 button{
   font-family: "Afacad", sans-serif;
   background: #90abff;
   margin:5px;
+}
+
+.page-button {
+  button{
+  font-family: "Afacad", sans-serif;
+  background: #90abff;
+  margin-left:115px;
+  margin-right:115px;
+
+}
 }
 a{
   color: #000000;
