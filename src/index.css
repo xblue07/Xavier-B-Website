@@ -86,7 +86,7 @@ p {
 
 ul {
   list-style:square;
-   font-family: "Afacad", sans-serif;
+  font-family: "Afacad", sans-serif;
   font-size:18px;
   color: #0D1754;
   margin-left:115px;
@@ -95,19 +95,17 @@ ul {
 
 button{
   font-family: "Afacad", sans-serif;
-  background: #0D1754
+  background: #0D1754;
   margin:5px;
 }
 
 .page-button {
-  button{
   font-family: "Afacad", sans-serif;
-  background: #0D1754
+  background: #0D1754;
   margin-left:115px;
   margin-right:115px;
+}
 
-}
-}
 a{
   color: #0D1754;
 }
