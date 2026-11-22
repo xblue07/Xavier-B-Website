@@ -32,14 +32,15 @@ body{
 }
 
 .hero-imgs {
-  width:100%;
+  width:auto;
   height:auto;
   max-width:250px;
-  border-radius:100%;
+  border-radius:15%;
   margin:15px;
 }
 
 .hero-section {
+  width:auto;
   display: flex;
   align-items: stretch;
   gap: 0px;
