@@ -15,7 +15,7 @@ body{
   max-width: 400px;
   border-radius:20px;
   padding: 10px;
-  margin-left:60px;
+  margin-left:100px;
   margin-right:60px;
 }
 
@@ -99,13 +99,12 @@ button{
   margin:5px;
 }
 
-.page-button {
+.page-button{
   font-family: "Afacad", sans-serif;
   background: #0D1754;
-  margin-left:115px;
-  margin-right:115px;
+  margin-left:100px;
 }
 
 a{
-  color: #0D1754;
+  color: #edf6ff;
 }
